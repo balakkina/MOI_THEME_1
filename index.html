@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Favicon -->
-  <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="img/Khanjar.png" type="image/x-icon" />
 
   <!-- Map CSS -->
-  <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" />
+  <!-- <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" /> -->
 
   <!-- Libs CSS -->
   <link rel="stylesheet" href="css/libs.bundle.css" />
@@ -989,18 +989,24 @@
         </ul>
 
         <!-- Button -->
-        <a class="navbar-btn btn btn-sm btn-primary lift ms-auto"
-          href="https://themes.getbootstrap.com/product/landkit/" target="_blank">
-          Login
+        <div class="ms-auto">
+        <a class="navbar-btn btn btn-sm btn-rounded-circle lift"
+          href="#!" target="_blank">
+          <?xml version="1.0" encoding="ISO-8859-1" ?>
+          <i class="fad fa-sign-in-alt fa-fw"></i> Login
         </a>
-
+        <a class="navbar-btn btn btn-sm btn-rounded-circle lift"
+        href="#!" target="_blank">
+        <i class="fad fa-language fa-fw fa-lg"></i> &#1593;&#1585;&#1576;&#1610;
+      </a>
+      </div>
       </div>
 
     </div>
   </nav>
 
   <!-- TESTIMONIALS -->
-  <section class="">
+  <section class="bg-gray-200">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-md-10 col-lg-8 text-center">
@@ -1260,7 +1266,94 @@
       </div> <!-- / .row -->
     </div> <!-- / .container -->
   </section>
+  <!-- SHAPE -->
+  <div class="position-relative">
+    <div class="shape shape-bottom shape-fluid-x text-white">
+      <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor"></path></svg>      </div>
+  </div>
+  <!-- ABOUT -->
+  <section class="pt-8 pt-md-10" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
 
+          <!-- Button -->
+          <a href="#about" class="btn btn-white btn-rounded-circle shadow mt-n12 mt-md-n14" data-scroll="">
+            <i class="fe fe-arrow-down"></i>
+          </a>
+
+        </div>
+      </div> <!-- / .row -->
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8 text-center">
+
+          <!-- Heading -->
+          <h2 class="fw-bold">
+            The hub for all your <span class="text-primary">communication and work</span>.
+          </h2>
+
+          <!-- Text -->
+          <p class="fs-lg text-muted mb-9">
+            MOI is where your team can come together to get stuff done. Chat, files, wikis, documentation, and more.
+          </p>
+
+        </div>
+      </div> <!-- / .row -->
+      <div class="row">
+        <div class="col-12 col-lg-6">
+
+          <!-- Item -->
+          <div class="row align-items-center mb-8 aos-init aos-animate lift" data-aos="fade-up">
+            <div class="col-4 col-lg-5">
+
+              <!-- Image -->
+              <img src="img/illustration/illustration-6.png" alt="..." class="img-fluid">
+
+            </div>
+            <div class="col-8 col-lg-7">
+
+              <!-- Heading -->
+              <h3 class="fw-bold mb-2">
+                Technical Services
+              </h3>
+
+              <!-- Text -->
+              <p class="text-gray-700 mb-0">
+                Services provided for the citizens and residents to obtain building permits and construction related services
+              </p>
+
+            </div>
+          </div> <!-- / .row -->
+
+        </div>
+        <div class="col-12 col-lg-6">
+          <!-- Item -->
+          <div class="row align-items-center mb-8 aos-init aos-animate lift" data-aos="fade-up">
+            <div class="col-4 col-lg-5">
+
+              <!-- Image -->
+              <img src="img/illustration/illustration-7.png" alt="..." class="img-fluid">
+
+            </div>
+            <div class="col-8 col-lg-7">
+
+              <!-- Heading -->
+              <h3 class="fw-bold mb-2">
+                Health Services
+              </h3>
+
+              <!-- Text -->
+              <p class="text-gray-700 mb-0">
+                Services provided for the citizens and residents to obtain municipal licenses, lease contracts and food safety permits
+              </p>
+
+            </div>
+          </div> <!-- / .row -->
+
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
+  </section>
   <!-- WELCOME -->
   <!-- <section class="pt-4 pt-md-11">
     <div class="container">
@@ -1276,7 +1369,7 @@
 
           Heading
           <h1 class="display-3 text-center text-md-start">
-            Welcome to <span class="text-primary">Landkit</span>. <br>
+            Welcome to <span class="text-primary">MOI</span>. <br>
             Develop anything.
           </h1>
 
@@ -1299,16 +1392,16 @@
       </div> / .row
     </div> / .container
   </section> -->
-
+  
   <!-- FEATURES -->
-  <section class="py-8 py-md-11 border-bottom">
+  <!-- <section class="py-8 py-md-11 border-bottom">
     <div class="container">
       <div class="row mx-auto">
         <div class="col-12 col-md-4" data-aos="fade-up">
 
-          <!-- Icon -->
+          Icon
           <div class="icon mb-3">
-            <!-- <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M7 3h10a4 4 0 110 8H7a4 4 0 110-8zm0 6a2 2 0 100-4 2 2 0 000 4z" fill="#335EEA"/><path d="M7 13h10a4 4 0 110 8H7a4 4 0 110-8zm10 6a2 2 0 100-4 2 2 0 000 4z" fill="#335EEA" opacity=".3"/></g></svg> -->
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M7 3h10a4 4 0 110 8H7a4 4 0 110-8zm0 6a2 2 0 100-4 2 2 0 000 4z" fill="#335EEA"/><path d="M7 13h10a4 4 0 110 8H7a4 4 0 110-8zm10 6a2 2 0 100-4 2 2 0 000 4z" fill="#335EEA" opacity=".3"/></g></svg>
 
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" enable-background="0 0 48 48">
               <g fill="#455A64">
@@ -1322,12 +1415,12 @@
             </svg>
           </div>
 
-          <!-- Heading -->
+          Heading
           <h3>
             Technical Services
           </h3>
 
-          <!-- Text -->
+          Text
           <p class="text-muted mb-6 mb-md-0">
             Services provided for the citizens and residents to obtain building permits and construction related
             services
@@ -1336,9 +1429,9 @@
         </div>
         <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="50">
 
-          <!-- Icon -->
+          Icon
           <div class="icon mb-3">
-            <!-- <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M5.5 4h4A1.5 1.5 0 0111 5.5v1A1.5 1.5 0 019.5 8h-4A1.5 1.5 0 014 6.5v-1A1.5 1.5 0 015.5 4zm9 12h4a1.5 1.5 0 011.5 1.5v1a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-1a1.5 1.5 0 011.5-1.5z" fill="#335EEA"/><path d="M5.5 10h4a1.5 1.5 0 011.5 1.5v7A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-7A1.5 1.5 0 015.5 10zm9-6h4A1.5 1.5 0 0120 5.5v7a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-7A1.5 1.5 0 0114.5 4z" fill="#335EEA" opacity=".3"/></g></svg> -->
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="M5.5 4h4A1.5 1.5 0 0111 5.5v1A1.5 1.5 0 019.5 8h-4A1.5 1.5 0 014 6.5v-1A1.5 1.5 0 015.5 4zm9 12h4a1.5 1.5 0 011.5 1.5v1a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-1a1.5 1.5 0 011.5-1.5z" fill="#335EEA"/><path d="M5.5 10h4a1.5 1.5 0 011.5 1.5v7A1.5 1.5 0 019.5 20h-4A1.5 1.5 0 014 18.5v-7A1.5 1.5 0 015.5 10zm9-6h4A1.5 1.5 0 0120 5.5v7a1.5 1.5 0 01-1.5 1.5h-4a1.5 1.5 0 01-1.5-1.5v-7A1.5 1.5 0 0114.5 4z" fill="#335EEA" opacity=".3"/></g></svg>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" enable-background="new 0 0 48 48">
               <g fill="#455A64">
                 <path
@@ -1354,19 +1447,19 @@
               </g>
             </svg>
           </div>
-          <!-- Heading -->
+          Heading
           <h3>
             Health Services
           </h3>
 
-          <!-- Text -->
+          Text
           <p class="text-muted mb-6 mb-md-0">
             Services provided for the citizens and residents to obtain municipal licenses, lease contracts and food
             safety permits
           </p>
 
         </div>
-        <!-- <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="100">
 
           Icon
           <div class="icon text-primary mb-3">
@@ -1393,11 +1486,12 @@
             anything.
           </p>
 
-        </div> -->
-      </div> <!-- / .row -->
-    </div> <!-- / .container -->
-  </section>
+        </div>
+      </div> / .row
+    </div> / .container
+  </section> -->
 
+  
   <!-- ABOUT -->
   <section class="pt-8 pt-md-11 bg-gradient-light-white">
     <div class="container">
@@ -1413,7 +1507,7 @@
 
           <!-- Text -->
           <p class="fs-lg text-muted mb-6">
-            Using Landkit to build your site means never worrying about designing another page or cross browser
+            Using MOI to build your site means never worrying about designing another page or cross browser
             compatibility. Our ever-growing library of components and pre-designed layouts will make your life easier.
           </p>
 
@@ -1549,7 +1643,7 @@
           <!-- Heading -->
           <h2>
             We have lots of experience <br>
-            <span class="text-primary">building Bootstrap themes</span>.
+            <span class="text-primary">Ministry of Interior</span>.
           </h2>
 
           <!-- Text -->
@@ -1558,9 +1652,9 @@
           </p>
 
           <!-- List -->
-          <div class="d-flex">
+          <!-- <div class="d-flex">
 
-            <!-- Icon -->
+            Icon
             <div class="icon text-primary">
               <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fill-rule="evenodd">
@@ -1577,52 +1671,22 @@
 
             <div class="ms-5">
 
-              <!-- Heading -->
+              Heading
               <h4 class="mb-1">
-                Bootstrap users since the beginning
+                Municipalities Sector
               </h4>
 
-              <!-- Text -->
+              Text
               <p class="text-muted mb-6">
-                We've been developing with Bootstrap since it was publicly released in 2011.
+                The municipalities sector endeavors to implement many vital projects aimed at maintenance of public sanitation.
               </p>
 
             </div>
 
-          </div>
-          <div class="d-flex">
-
-            <!-- Icon -->
-            <div class="icon text-primary">
-              <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <g fill="none" fill-rule="evenodd">
-                  <path d="M0 0h24v24H0z" />
-                  <path
-                    d="M17.272 8.685a1 1 0 111.456-1.37l4 4.25a1 1 0 010 1.37l-4 4.25a1 1 0 01-1.456-1.37l3.355-3.565-3.355-3.565zm-10.544 0L3.373 12.25l3.355 3.565a1 1 0 01-1.456 1.37l-4-4.25a1 1 0 010-1.37l4-4.25a1 1 0 011.456 1.37z"
-                    fill="#335EEA" />
-                  <rect fill="#335EEA" opacity=".3" transform="rotate(15 12 12)" x="11" y="4" width="2" height="16"
-                    rx="1" />
-                </g>
-              </svg>
-            </div>
-
-            <div class="ms-5">
-
-              <!-- Heading -->
-              <h4 class="mb-1">
-                Deep understanding of Bootstrap
-              </h4>
-
-              <!-- Text -->
-              <p class="text-muted mb-6 mb-md-0">
-                We've watched Bootstrap grow up over the years and understand it better than almost anyone.
-              </p>
-
-            </div>
-
-          </div>
+          </div> -->
 
         </div>
+
         <div class="col-12 col-md-5 col-lg-6">
 
           <div class="w-md-150 w-lg-130 position-relative" data-aos="fade-left">
@@ -1652,265 +1716,278 @@
   </section>
 
   <!-- SHAPE -->
-  <div class="position-relative mt-n8">
+  <!-- <div class="position-relative mt-n8">
     <div class="shape shape-bottom shape-fluid-x text-gray-200">
       <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0v240h2880V0h-720z"
           fill="currentColor" />
       </svg>
     </div>
-  </div>
+  </div> -->
 
-  <!-- STATS -->
-  <section class="pt-12 pt-md-13 bg-gray-200">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-12 col-md-5 col-lg-6 order-md-2">
+ <!-- SHAPE -->
+ <div class="position-relative">
+  <div class="shape shape-bottom shape-fluid-x text-gray-200">
+    <svg viewBox="0 0 2880 56" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M720 28H0v28h2880V28h-720S1874 0 1440 0 720 28 720 28z" fill="currentColor"/></svg>      </div>
+</div>
 
-          <!-- Image -->
-          <img src="img/illustration/illustration-8.png" alt="..." class="img-fluid mb-6 mb-md-0">
+<!-- CASE STUDIES -->
+<!-- <section class="pt-10 bg-gray-200">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8 text-center">
 
-        </div>
-        <div class="col-12 col-md-7 col-lg-6 order-md-1">
+        Badge
+        <span class="badge rounded-pill bg-success-soft mb-3">
+          <span class="h6 text-uppercase">Case Studies</span>
+        </span>
 
-          <!-- Heading -->
-          <h2>
-            Stay focused on your business. <br>
-            <span class="text-primary">Let us handle the design</span>.
-          </h2>
+        Heading
+        <h2 class="fw-bold">
+          Used by your favorite companies
+        </h2>
 
-          <!-- Text -->
-          <p class="fs-lg text-gray-700 mb-6">
-            You have a business to run. Stop worring about cross-browser bugs, designing new pages, keeping your
-            components up to date. Let us do that for you.
-          </p>
+        Text
+        <p class="fs-lg text-gray-700 mb-9">
+          Many of the greatest startups in the world are already using MOI to help them get work done and solve their communication needs.
+        </p>
 
-          <!-- Stats -->
-          <div class="d-flex">
-            <div class="pe-5">
-              <h3 class="mb-0">
-                <span data-countup='{"startVal": 0}' data-to="100" data-aos data-aos-id="countup:in"></span>%
-              </h3>
-              <p class="text-gray-700 mb-0">
-                Satisfaction
-              </p>
-            </div>
-            <div class="border-start border-gray-300"></div>
-            <div class="px-5">
-              <h3 class="mb-0">
-                <span data-countup='{"startVal": 0}' data-to="24" data-aos data-aos-id="countup:in"></span>/
-                <span data-countup='{"startVal": 0}' data-to="7" data-aos data-aos-id="countup:in"></span>
-              </h3>
-              <p class="text-gray-700 mb-0">
-                Support
-              </p>
-            </div>
-            <div class="border-start border-gray-300"></div>
-            <div class="ps-5">
-              <h3 class="mb-0">
-                <span data-countup='{"startVal": 0}' data-to="100" data-aos data-aos-id="countup:in"></span>k+
-              </h3>
-              <p class="text-gray-700 mb-0">
-                Sales
-              </p>
-            </div>
-          </div>
+      </div>
+    </div> / .row
+  </div> / .container
+</section> -->
 
-        </div>
-      </div> <!-- / .row -->
-    </div> <!-- / .container -->
-  </section>
+<!-- CASE STUDIES (CAROUSEL) -->
+<section class="pt-10 bg-gray-200">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
 
-  <!-- PRICING -->
-  <section class="pt-9 pt-md-12 bg-gray-200">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-10 col-lg-8 text-center">
+        <!-- Flickity -->
+        <div class="flickity-viewport-visible pt-2 pb-9" data-flickity='{"cellAlign": "left", "imagesLoaded": true, "pageDots": false, "prevNextButtons": false, "contain": true}'>
+          <div class="col-12 col-md-5 col-lg-4">
 
-          <!-- Heading -->
-          <h1>
-            Fair, simple pricing for all.
-          </h1>
+            <!-- Card -->
+            <div class="card card-border shadow-light-lg lift lift-lg" style="border-top-color: #FF5A5F;">
+              <div class="card-body text-center">
 
-          <!-- Text -->
-          <p class="lead text-gray-700">
-            All types of businesses need access to development resources, so we give you the option to decide how much
-            you need to use.
-          </p>
-
-          <!-- Form -->
-          <form class="d-flex align-items-center justify-content-center mb-7 mb-md-9">
-
-            <!-- Label -->
-            <span class="text-muted">
-              Annual
-            </span>
-
-            <!-- Switch -->
-            <div class="form-check form-switch mx-3">
-              <input class="form-check-input" type="checkbox" id="billingSwitch" data-toggle="price"
-                data-target=".price">
-            </div>
-
-            <!-- Label -->
-            <span class="text-muted">
-              Monthly
-            </span>
-
-          </form>
-
-        </div>
-      </div> <!-- / .row -->
-      <div class="row align-items-center gx-0">
-        <div class="col-12 col-md-6">
-
-          <!-- Card -->
-          <div class="card rounded-lg shadow-lg mb-6 mb-md-0" style="z-index: 1;" data-aos="fade-up">
-
-            <!-- Body -->
-            <div class="card-body py-6 py-md-8">
-              <div class="row justify-content-center">
-                <div class="col-12 col-xl-9">
-
-                  <!-- Badge -->
-                  <div class="text-center mb-5">
-                    <span class="badge rounded-pill bg-primary-soft">
-                      <span class="h6 fw-bold text-uppercase">Standard</span>
-                    </span>
-                  </div>
-
-                  <!-- Price -->
-                  <div class="d-flex justify-content-center">
-                    <span class="h2 mb-0 mt-2">$</span>
-                    <span class="price display-2 mb-0" data-annual="29" data-monthly="49">29</span>
-                    <span class="h2 align-self-end mb-1">/mo</span>
-                  </div>
-
-                  <!-- Text -->
-                  <p class="text-center text-muted mb-6 mb-md-8">
-                    per seat
-                  </p>
-
-                  <!-- Features -->
-                  <div class="d-flex">
-
-                    <!-- Check -->
-                    <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-
-                    <!-- Text -->
-                    <p>
-                      Rich, responsive landing pages
-                    </p>
-
-                  </div>
-                  <div class="d-flex">
-
-                    <!-- Check -->
-                    <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-
-                    <!-- Text -->
-                    <p>
-                      100+ styled components
-                    </p>
-
-                  </div>
-                  <div class="d-flex">
-
-                    <!-- Check -->
-                    <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-
-                    <!-- Text -->
-                    <p>
-                      Flexible, simple license
-                    </p>
-
-                  </div>
-                  <div class="d-flex">
-
-                    <!-- Check -->
-                    <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-
-                    <!-- Text -->
-                    <p>
-                      Speedy build tooling
-                    </p>
-
-                  </div>
-                  <div class="d-flex">
-
-                    <!-- Check -->
-                    <div class="badge badge-rounded-circle bg-success-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-
-                    <!-- Text -->
-                    <p class="mb-0">
-                      6 months free support included
-                    </p>
-
-                  </div>
-
+                <!-- Icon -->
+                <div class="img-fluid icon mb-5 w-50 mx-auto" style="color: #0081C9;">
+                  <i class="fad fa-city fa-3x"></i>
                 </div>
-              </div> <!-- / .row -->
-            </div>
+                <!-- Heading -->
+              <h4 class="mb-1">
+                Municipalities Sector
+              </h4>
 
-            <!-- Button -->
-            <a href="#!" class="card-btn btn w-100 btn-lg btn-primary">
-              Get it now
-            </a>
+              <!-- Text -->
+              <p class="text-muted mb-6">
+                The municipalities sector endeavors to implement many vital projects aimed at maintenance of public sanitation.
+              </p>
+
+                <!-- Link -->
+                <a href="#!" style="color: #FF5A5F;">Read more</a>
+
+              </div>
+            </div>
 
           </div>
 
-        </div>
-        <div class="col-12 col-md-6 ms-md-n3">
+          <div class="col-12 col-md-5 col-lg-4">
 
-          <!-- Card -->
-          <div class="card rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="200">
+            <!-- Card -->
+            <div class="card card-border shadow-light-lg lift lift-lg" style="border-top-color: #0081C9;">
+              <div class="card-body text-center">
 
-            <!-- Body -->
-            <div class="card-body py-6 py-md-8">
-              <div class="row justify-content-center">
-                <div class="col-12 col-xl-10">
-
-                  <!-- Badge -->
-                  <p class="text-center mb-8 mb-md-11">
-                    <span class="badge rounded-pill bg-primary-soft">
-                      <span class="h6 fw-bold text-uppercase">Enterprise</span>
-                    </span>
-                  </p>
-
-                  <!-- Text -->
-                  <p class="lead text-center text-muted mb-0 mb-md-10">
-                    We offer variable pricing with discounts for larger organizations. Get in touch with us and we’ll
-                    figure out something that works for everyone.
-                  </p>
-
+                <!-- Icon -->
+                <div class="img-fluid icon mb-5 w-50 mx-auto" style="color: #0081C9;">
+                  <i class="fad fa-angel fa-3x"></i>
                 </div>
-              </div> <!-- / .row -->
-            </div>
 
-            <!-- Button -->
-            <a href="#!" class="card-btn btn w-100 btn-lg btn-light bg-gray-300 text-gray-700">
-              Contact us
-            </a>
+                <!-- Heading -->
+                <h4 class="mb-1">
+                  Kids Corner
+                </h4>
+
+                <!-- Text -->
+                <p class="text-muted mb-6">
+                  Section allows the children to participate in online games, Instructions to children’s, Kids stories for download, Awareness campaigns details.
+                </p>
+
+                <!-- Link -->
+                <a href="#!" style="color: #B81D24;">Read more</a>
+
+              </div>
+            </div>
 
           </div>
 
+          <div class="col-12 col-md-5 col-lg-4">
+
+            <!-- Card -->
+            <div class="card card-border shadow-light-lg lift lift-lg" style="border-top-color: #B81D24;">
+              <div class="card-body text-center">
+
+                <!-- Icon -->
+                <div class="img-fluid icon mb-5 w-50 mx-auto" style="color: #0081C9;">
+                  <i class="fad fa-poll-people fa-3x"></i>
+                </div>
+
+                <!-- Heading -->
+                <h4 class="mb-1">
+                  Survey
+                </h4>
+
+                <!-- Text -->
+                <p class="text-muted mb-6">
+                  Do awareness campaigns have contributed to deliver its message to the community ?
+                </p>
+
+                <!-- Link -->
+                <a href="#!" style="color: #B81D24;">Read more</a>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-12 col-md-5 col-lg-4">
+
+            <!-- Card -->
+            <div class="card card-border shadow-light-lg lift lift-lg" style="border-top-color: #0081C9;">
+              <div class="card-body text-center">
+
+                <!-- Icon -->
+                <div class="img-fluid mb-5 w-50 mx-auto" style="color: #0081C9;">
+                  <i class="fad fa-gavel fa-3x"></i>
+                </div>
+
+
+                <!-- Heading -->
+                <h4 class="mb-1">
+                  Rules &amp; Regulations
+                </h4>
+
+                <!-- Text -->
+                <p class="text-muted mb-6">
+                  Laws and legislations are used by the ministry to control municipal and water resources work in the Sultanate.
+                </p>
+
+                <!-- Link -->
+                <a href="#!" style="color: #0081C9;">Read more</a>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-12 col-md-5 col-lg-4">
+
+            <!-- Card -->
+            <div class="card card-border shadow-light-lg lift lift-lg" style="border-top-color: #6772E5;">
+              <div class="card-body text-center">
+
+                <!-- Icon -->
+                <div class="img-fluid mb-5 w-50 mx-auto" style="color: #0081C9;">
+                  <i class="fad fa-book-reader fa-3x"></i>
+                </div>
+
+
+                <!-- Heading -->
+                <h4 class="mb-1">
+                  Planning &amp; Studies
+                </h4>
+
+                <!-- Text -->
+                <p class="text-muted mb-6">
+                  Scientific planning is one of the main pillars of the Ministry's work and the supporting fields in municipal.
+                </p>
+
+                <!-- Link -->
+                <a href="#!" style="color: #6772E5;">Read more</a>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-12 col-md-5 col-lg-4">
+
+            <!-- Card -->
+            <div class="card card-border shadow-light-lg lift lift-lg" style="border-top-color: #CB2027;">
+              <div class="card-body text-center">
+
+                <!-- Icon -->
+                <div class="img-fluid mb-5 w-50 mx-auto" style="color: #0081C9;">
+                  <i class="fad fa-vials fa-3x"></i>
+                </div>
+
+
+                <!-- Heading -->
+                <h4 class="mb-1">
+                  Food &amp; Water Laboratory
+                </h4>
+
+                <!-- Text -->
+                <p class="text-muted mb-6">
+                  The FWLC was formed in 2001 by merging of already well established two laboratories – Water Quality Laboratory and Food and Environment Laboratory.
+                </p>
+
+                <!-- Link -->
+                <a href="#!" style="color: #CB2027;">Read more</a>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-12 col-md-5 col-lg-4">
+
+            <!-- Card -->
+            <div class="card card-border shadow-light-lg lift lift-lg" style="border-top-color: #DA5988;">
+              <div class="card-body text-center">
+
+                <!-- Icon -->
+                <div class="img-fluid mb-5 w-50 mx-auto" style="color: #0081C9;">
+                  <i class="fad fa-water fa-3x"></i>
+                </div>
+
+                <!-- Heading -->
+                <h4 class="mb-1">
+                  Water Resource Sector
+                </h4>
+
+                <!-- Text -->
+                <p class="text-muted mb-6">
+                  Water is a <span style="color: #0081C9;">"National Wealth"</span>, a concept stressed by His Majesty Sultan Qaboos bin Said.
+                </p>
+
+                <!-- Link -->
+                <a href="#!" style="color: #DA5988;">Read more</a>
+
+              </div>
+            </div>
+
+          </div>
         </div>
-      </div> <!-- / .row -->
-    </div> <!-- / .container -->
-  </section>
+
+      </div>
+    </div> <!-- / .row -->
+  </div> <!-- / .container -->
+</section>
 
   <!-- SHAPE -->
-  <div class="position-relative mt-n15">
+  <!-- <div class="position-relative mt-n15">
+    <div class="shape shape-bottom shape-fluid-x text-dark">
+      <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor" />
+      </svg>
+    </div>
+  </div> -->
+
+
+  <!-- SHAPE -->
+  <div class="position-relative">
     <div class="shape shape-bottom shape-fluid-x text-dark">
       <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor" />
@@ -1918,161 +1995,8 @@
     </div>
   </div>
 
-  <!-- FAQ -->
-  <section class="pt-15 bg-dark">
-    <div class="container pt-8 pt-md-11">
-      <div class="row">
-        <div class="col-12 col-md-6">
-
-          <!-- Item -->
-          <div class="d-flex">
-
-            <!-- Badge -->
-            <div class="badge badge-lg badge-rounded-circle bg-success">
-              <span>?</span>
-            </div>
-
-            <div class="ms-5">
-
-              <!-- Heading -->
-              <h4 class="text-white">
-                Can I use Landkit for my clients?
-              </h4>
-
-              <!-- Text -->
-              <p class="text-muted mb-6 mb-md-8">
-                Absolutely. The Bootstrap Themes license allows you to build a website for personal use or for a client.
-              </p>
-
-            </div>
-
-          </div>
-
-          <!-- Item -->
-          <div class="d-flex">
-
-            <!-- Badge -->
-            <div class="badge badge-lg badge-rounded-circle bg-success">
-              <span>?</span>
-            </div>
-
-            <div class="ms-5">
-
-              <!-- Heading -->
-              <h4 class="text-white">
-                Do I get free updates?
-              </h4>
-
-              <!-- Text -->
-              <p class="text-muted mb-6 mb-md-0">
-                Yes. We update all of our themes with each Bootstrap update, plus are constantly adding new components,
-                pages, and features to our themes.
-              </p>
-
-            </div>
-
-          </div>
-
-        </div>
-        <div class="col-12 col-md-6">
-
-          <!-- Item -->
-          <div class="d-flex">
-
-            <!-- Badge -->
-            <div class="badge badge-lg badge-rounded-circle bg-success">
-              <span>?</span>
-            </div>
-
-            <div class="ms-5">
-
-              <!-- Heading -->
-              <h4 class="text-white">
-                Is there a money back guarantee?
-              </h4>
-
-              <!-- Text -->
-              <p class="text-muted mb-6 mb-md-8">
-                Yup! Bootstrap Themes come with a satisfaction guarantee. Submit a return and get your money back.
-              </p>
-
-            </div>
-
-          </div>
-
-          <!-- Item -->
-          <div class="d-flex">
-
-            <!-- Badge -->
-            <div class="badge badge-lg badge-rounded-circle bg-success">
-              <span>?</span>
-            </div>
-
-            <div class="ms-5">
-
-              <!-- Heading -->
-              <h4 class="text-white">
-                Does it work with Rails? React? Laravel?
-              </h4>
-
-              <!-- Text -->
-              <p class="text-muted mb-6 mb-md-0">
-                Yes. Landkit has basic CSS/JS files you can include. If you want to enable deeper customization, you can
-                integrate it into your assets pipeline or build processes.
-              </p>
-
-            </div>
-
-          </div>
-
-        </div>
-      </div> <!-- / .row -->
-    </div> <!-- / .container -->
-  </section>
-
-  <!-- CTA -->
-  <section class="py-8 py-md-11 bg-dark">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-10 col-lg-8 text-center">
-
-          <!-- Badge -->
-          <span class="badge rounded-pill bg-gray-700-soft mb-4">
-            <span class="h6 fw-bold text-uppercase">Get started</span>
-          </span>
-
-          <!-- Heading -->
-          <h1 class="display-4 text-white">
-            Get Landkit and save your time.
-          </h1>
-
-          <!-- Text -->
-          <p class="fs-lg text-muted mb-6 mb-md-8">
-            Stop wasting time trying to do it the "right way" and build a site from scratch. Landkit is faster, easier,
-            and you still have complete control.
-          </p>
-
-          <!-- Button -->
-          <a href="https://themes.getbootstrap.com/product/landkit/" target="_blank" class="btn btn-success lift">
-            Buy it now <i class="fe fe-arrow-right"></i>
-          </a>
-
-        </div>
-      </div> <!-- / .row -->
-    </div> <!-- / .container -->
-  </section>
-
-  <!-- SHAPE -->
-  <div class="position-relative">
-    <div class="shape shape-bottom shape-fluid-x text-gray-200">
-      <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor" />
-      </svg>
-    </div>
-  </div>
-
   <!-- FOOTER -->
-  <footer class="py-8 py-md-11 bg-gray-200">
+  <footer class="py-8 py-md-11 bg-dark">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-4 col-lg-3">
@@ -2110,44 +2034,7 @@
           </ul>
 
         </div>
-        <div class="col-6 col-md-4 col-lg-2">
-
-          <!-- Heading -->
-          <h6 class="fw-bold text-uppercase text-gray-700">
-            Products
-          </h6>
-
-          <!-- List -->
-          <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
-            <li class="mb-3">
-              <a href="#!" class="text-reset">
-                Page Builder
-              </a>
-            </li>
-            <li class="mb-3">
-              <a href="#!" class="text-reset">
-                UI Kit
-              </a>
-            </li>
-            <li class="mb-3">
-              <a href="#!" class="text-reset">
-                Styleguide
-              </a>
-            </li>
-            <li class="mb-3">
-              <a href="#!" class="text-reset">
-                Documentation
-              </a>
-            </li>
-            <li>
-              <a href="#!" class="text-reset">
-                Changelog
-              </a>
-            </li>
-          </ul>
-
-        </div>
-        <div class="col-6 col-md-4 col-lg-2">
+        <div class="col-6 col-md-4 col-lg-3">
 
           <!-- Heading -->
           <h6 class="fw-bold text-uppercase text-gray-700">
@@ -2157,76 +2044,76 @@
           <!-- List -->
           <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
             <li class="mb-3">
-              <a href="#!" class="text-reset">
-                Documentation
+              <a class="text-reset" href="#!">
+                Vision & Mission
               </a>
             </li>
             <li class="mb-3">
-              <a href="#!" class="text-reset">
-                Changelog
+              <a class="text-reset" href="#!">
+                Specialties
               </a>
             </li>
             <li class="mb-3">
-              <a href="#!" class="text-reset">
-                Pagebuilder
+              <a class="text-reset" href="#!">
+                Future Effort
               </a>
             </li>
-            <li>
-              <a href="#!" class="text-reset">
-                UI Kit
+            <li class="mb-3">
+              <a class="text-reset" href="#!">
+                Organization
+              </a>
+            </li>
+            <li class="mb-3">
+              <a class="text-reset" href="#!">
+                Month
               </a>
             </li>
           </ul>
 
         </div>
-        <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
+        <div class="col-6 col-md-4 col-lg-3">
 
           <!-- Heading -->
           <h6 class="fw-bold text-uppercase text-gray-700">
-            Connect
+            Useful Links
           </h6>
 
           <!-- List -->
           <ul class="list-unstyled text-muted mb-0">
             <li class="mb-3">
               <a href="#!" class="text-reset">
-                Page Builder
+                FAQ
               </a>
             </li>
             <li class="mb-3">
               <a href="#!" class="text-reset">
-                UI Kit
+                Useful Links
               </a>
             </li>
             <li class="mb-3">
               <a href="#!" class="text-reset">
-                Styleguide
+                Sitemap
               </a>
             </li>
             <li class="mb-3">
               <a href="#!" class="text-reset">
-                Documentation
+                Website Policies
               </a>
             </li>
             <li class="mb-3">
               <a href="#!" class="text-reset">
-                Changelog
+                Terms &amp; Condition
               </a>
             </li>
             <li class="mb-3">
               <a href="#!" class="text-reset">
-                Documentation
-              </a>
-            </li>
-            <li>
-              <a href="#!" class="text-reset">
-                Changelog
+                Contact
               </a>
             </li>
           </ul>
 
         </div>
-        <div class="col-6 col-md-4 col-lg-2">
+        <div class="col-6 col-md-4 col-lg-3">
 
           <!-- Heading -->
           <h6 class="fw-bold text-uppercase text-gray-700">
@@ -2236,24 +2123,36 @@
           <!-- List -->
           <ul class="list-unstyled text-muted mb-0">
             <li class="mb-3">
+              <a href="http://www.sai.gov.om/en/AntiCorruption.aspx" target="_blank" class="text-reset">Anti-Corruption Policy</a>
+            </li>
+            <li class="mb-3">
               <a href="#!" class="text-reset">
-                Documentation
+                eParticipation Policy
               </a>
             </li>
             <li class="mb-3">
               <a href="#!" class="text-reset">
-                Changelog
+                eAccessibility Policy
               </a>
             </li>
-            <li>
+            <li class="mb-3">
               <a href="#!" class="text-reset">
-                Pagebuilder
+                eTransformation Policy
               </a>
+            </li>
+            <li class="mb-3">
+              <a href="https://ita.gov.om/ITAPortal/ITA/default.aspx" target="_blank" class="text-reset">eOman</a>
             </li>
           </ul>
 
         </div>
       </div> <!-- / .row -->
+      <hr style="background-color: #abacaf;">
+      <div class="row">
+        <div class="col-12">
+          <p class="text-center text-muted">Copyright &copy; Ministry of Interior, All Rights Reserved</p>
+        </div>       
+      </div> <!-- /.row -->
     </div> <!-- / .container -->
   </footer>
 
