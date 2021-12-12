@@ -33,3 +33,22 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* Scrolling End */
+
+/* text resize */
+#lnkIncrease{
+    font-size:14px !important;
+}
+#lnkNormal{
+    font-size:12px !important;
+}
+#lnkDecrease{
+    font-size:10px !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    #lnkDecrease, #lnkNormal, #lnkIncrease{
+        display: none;
+    }
+}
+/* text resize */
