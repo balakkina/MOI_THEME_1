@@ -22,6 +22,8 @@
   <!-- fontawesome -->
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.15.4/css/all.css">
 
+  <!-- custom CSS -->
+  <link rel="stylesheet" href="css/moi.css">
   <!-- Title -->
   <title>:: Home ::</title>
 </head>
@@ -125,10 +127,10 @@
         <div class="card card-row">
           <div class="row gx-0">
             <div class="col-12 col-md-6 bg-cover card-img-start"
-              style="background-image: url(./assets/img/photos/photo-8.jpg);">
+              style="background-image: url(img/illustration/illustration-3.png);">
 
               <!-- Image (placeholder) -->
-              <img src="./assets/img/photos/photo-8.jpg" alt="..." class="img-fluid d-md-none invisible">
+              <img src="img/illustration/illustration-3.png" alt="..." class="img-fluid d-md-none invisible">
 
               <!-- Shape -->
               <div class="shape shape-end shape-fluid-y text-white d-none d-md-block">
@@ -206,7 +208,7 @@
           <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
 
           <!-- Image -->
-          <img src="./assets/img/photos/photo-7.jpg" alt="..." class="card-img-top">
+          <img src="img/illustration/illustration-5.png" alt="..." class="card-img-top">
 
           <!-- Shape -->
           <div class="position-relative">
@@ -359,7 +361,7 @@
           <button type="button" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
 
           <!-- Image -->
-          <img src="./assets/img/photos/photo-21.jpg" alt="..." class="card-img-top">
+          <img src="img/illustration/illustration-6.png" alt="..." class="card-img-top">
 
           <!-- Shape -->
           <div class="position-relative">
@@ -477,7 +479,7 @@
   </div>
 
   <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top border-bottom shadow-light-lg">
     <div class="container-fluid">
 
       <!-- Brand -->
@@ -993,11 +995,11 @@
         <a class="navbar-btn btn btn-sm btn-rounded-circle lift"
           href="#!" target="_blank">
           <?xml version="1.0" encoding="ISO-8859-1" ?>
-          <i class="fad fa-sign-in-alt fa-fw"></i> Login
+          <i class="fad fa-sign-in-alt fa-fw text-primary"></i> Login
         </a>
         <a class="navbar-btn btn btn-sm btn-rounded-circle lift"
         href="#!" target="_blank">
-        <i class="fad fa-language fa-fw fa-lg"></i> &#1593;&#1585;&#1576;&#1610;
+        <i class="fad fa-language fa-fw fa-lg text-primary"></i> &#1593;&#1585;&#1576;&#1610;
       </a>
       </div>
       </div>
@@ -1815,7 +1817,7 @@
                 </p>
 
                 <!-- Link -->
-                <a href="#!" style="color: #B81D24;">Read more</a>
+                <a href="#!" style="color: #0081C9;">Read more</a>
 
               </div>
             </div>
@@ -1996,7 +1998,7 @@
   </div>
 
   <!-- FOOTER -->
-  <footer class="py-8 py-md-11 bg-dark">
+  <footer class="py-8 py-md-11 bg-dark" style="background: url(img/bg_header.png);">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-4 col-lg-3">
@@ -2026,13 +2028,20 @@
                 <img src="img/social/twitter.svg" class="list-social-icon" alt="...">
               </a>
             </li>
-            <li class="list-inline-item list-social-item">
-              <a href="#!" class="text-decoration-none">
-                <img src="img/social/pinterest.svg" class="list-social-icon" alt="...">
+          </ul>
+          <!-- brand -->
+          <ul class="list-unstyled list-inline list-social mt-6 mb-md-0">
+            <li class="list-inline-item list-social-item me-3 lift">
+              <a href="http://www.oman.om/" target="_blank" class="text-decoration-none">
+                <img src="img/eoman_logo.png" class="list-brand-icon" alt="...">
+              </a>
+            </li>
+            <li class="list-inline-item list-social-item me-3 lift">
+              <a href="http://www.w3.org/" target="_blank" class="text-decoration-none">
+                <img src="img/w3c-logo.png" class="list-brand-icon" alt="...">
               </a>
             </li>
           </ul>
-
         </div>
         <div class="col-6 col-md-4 col-lg-3">
 
@@ -2149,9 +2158,23 @@
       </div> <!-- / .row -->
       <hr style="background-color: #abacaf;">
       <div class="row">
-        <div class="col-12">
-          <p class="text-center text-muted">Copyright &copy; Ministry of Interior, All Rights Reserved</p>
-        </div>       
+        <div class="col-8 d-flex align-items-center">
+          <p class="text-muted">Copyright &copy; Ministry of Interior, All Rights Reserved</p>
+        </div>
+        <div class="col-4 d-flex align-items-center justify-content-end">
+          <ul class="list-unstyled list-inline list-social mb-md-0">
+            <li class="list-inline-item list-social-item me-3 lift">
+              <a href="http://www.oman.om/" target="_blank" class="text-decoration-none">
+                <img src="img/app/app_store.svg" class="list-brand-icon" alt="...">
+              </a>
+            </li>
+            <li class="list-inline-item list-social-item me-3 lift">
+              <a href="http://www.w3.org/" target="_blank" class="text-decoration-none">
+                <img src="img/app/google_play.svg" class="list-brand-icon" alt="...">
+              </a>
+            </li>
+          </ul>
+        </div>  
       </div> <!-- /.row -->
     </div> <!-- / .container -->
   </footer>

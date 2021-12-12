@@ -16713,6 +16713,11 @@ html {
 	height: auto;
 	max-width: 1.25rem
 }
+.list-brand-icon {
+	height: 64px;
+	width: 64px;
+	border-radius: 8px;
+}
 .hr-sm {
 	width: 60px
 }
