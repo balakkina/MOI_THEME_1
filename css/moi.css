@@ -93,10 +93,10 @@ body::-webkit-scrollbar-thumb {
     background-position: bottom left, right 325px bottom 25px;
 }
 .eServices-main {
-    background-image: url(../img/pattern/pattern-24.png);
-    background-size: 165px;
-    background-repeat: no-repeat;
-    background-position:  top 25px left;
+    background-image: url(../img/new-01-01.png), url(../img/pattern/pattern-24.png);
+    background-size: auto, 165px;
+    background-repeat: repeat ,no-repeat;
+    background-position:  top 125px left;
 }
 .footer-bg {
     background-image: url(../img/new-01-01.png);
@@ -137,10 +137,10 @@ body::-webkit-scrollbar-thumb {
   }
   
   .separator-danger {
-    color: #e78b90;
+    color: #009A44;
   }
   .separator-danger:before, .separator-danger:after {
-    border-color: #e78b90;
+    border-color: #C8102E;
   }
 
   .page-section {
@@ -197,17 +197,20 @@ body::-webkit-scrollbar-thumb {
     width: 40px;
 }
 .works_bg {
-    background: url('../img/works_bg.svg');
-    background-size: cover;
+    background: url('../img/oman_flag_bg.svg');
+    background-size: auto;
 }
 /* Item-box */
 .item-box {
     padding-bottom: 70px;
 }
-.item-box a:not(.btn) {
+.item-box a:not(.btn), .img3-border {
     color: #171717;
     display: inline-block;
     transition: opacity 0.2s linear 0s;
+    text-decoration: none;
+    border: solid 1px #BFC6CF;
+    width: 100%;
 }
 .img1_holder {
     background: #FFFFFF;
@@ -274,6 +277,7 @@ body::-webkit-scrollbar-thumb {
     text-align: center;
     margin-top: 0px;
     border-radius: 41.0604px;
+    border: solid 1px #BFC6CF;
 }
 /************************FOR MOBILE DEVICES ************************************/
 @media (min-width:320px) and (max-width: 667px) {
