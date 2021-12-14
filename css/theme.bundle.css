@@ -3549,9 +3549,10 @@ textarea.form-control-lg {
 	width: 100%
 }
 .dropdown-item.active, .dropdown-item:active, .dropdown-item:focus, .dropdown-item:hover {
-	background-color: none;
-	color: #335eea;
-	text-decoration: none
+	color: #009A44 !important;
+    background-color: #e9ecef;
+    border-left: 4px solid #C8102E;
+	text-decoration: none;
 }
 .dropdown-item.disabled, .dropdown-item:disabled {
 	background-color: transparent;
