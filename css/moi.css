@@ -1,7 +1,9 @@
 /* Scrolling Start */
 
 /*! Firefox */
-
+body {
+    background-image: url(../img/pattern.png);
+}
 html {
     scrollbar-color: #080808 #a6a7a8;
 }
@@ -63,14 +65,53 @@ body::-webkit-scrollbar-thumb {
     background-size: auto, cover;
 }
 .navbar-bg {
-    background-image: url(../img/clouds.png),url(../img/pattern/pattern-1.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom right;
+    background-image: url(../img/patterbn.png), url(../img/pattern/pattern-14.png),url(../img/pattern/pattern-1.png);
+    background-size: auto ,170px, contain;
+    background-repeat: repeat, no-repeat, no-repeat;
+    background-position: 193px bottom, bottom right;
 }
+.navbar-bg::before {
+    background-color: rgba(204, 201, 201, 0.171);
+	border-radius: inherit;
+	bottom: 0;
+	content: "";
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0
+}
+/* .eServices {
+  background-image: url(../img/pattern/pattern-7.png), url(../img/pattern/pattern-13.png),url(../img/pattern/pattern-12.png);
+  background-size: 490px, 490px, 249px;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: bottom left, bottom center, bottom right;
+} */
 .eServices {
-  background-image: url(../img/pattern/pattern-7.png),url(../img/pattern/pattern-12.png);
-  background-size: 490px, 249px;
-  background-repeat: no-repeat, no-repeat;
-  background-position: bottom left, bottom right;
+    background-image: url(../img/pattern/pattern-7.png), url(../img/pattern/pattern-24.png), url(../img/pattern/pattern-22.png);
+    background-size: 490px, 211px, 125px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, right 325px bottom 25px, right 49px bottom 10px;
 }
+.eServices-main {
+    background-image: url(../img/pattern/pattern-24.png), url(../img/pattern/pattern-22.png);
+    background-size: 290px, 174px;
+    background-repeat: no-repeat, no-repeat;
+    background-position:  top 25px right, right 49px top 10px;
+}
+.footer-bg {
+    background-image: url(../img/pattern/pattern-6.png),url(../img/new-01-01.png);
+    background-size: 170px, auto;
+    background-repeat: repeat-x, repeat;
+    background-position: bottom left, bottom right;
+}
+.latest-bg {
+    background-image: url(../img/pattern/pattern-18.png), url(../img/pattern/pattern-20.png);
+    background-size: 149px, 149px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, top right;
+}
+
+.card-border-moi {
+    border-top: 2px solid rgb(200, 16, 46) ; 
+    border-bottom: 2px solid rgb(0, 154, 68);
+ }
