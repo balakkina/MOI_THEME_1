@@ -1,0 +1,14 @@
+.navbar-bg {
+    background-image: url(../img/pattern/pattern-14.png),url(../img/pattern/pattern-1.png);
+    background-size: 170px, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, right 193px bottom;
+}
+.list-inline, .list-unstyled {
+    padding-left: 0;
+    padding-right: 0;
+}
+.form-floating>label {
+    right: 0;
+    left: auto;
+}
